@@ -7,7 +7,7 @@
 
 ## Install
 
-  1. `git clone http://github.com/christiannaths/react-boilerplate && cd react-boilerplate`
+  1. `git clone https://github.com/christiannaths/webpack-react-boilerplate && cd webpack-react-boilerplate`
   * `npm install`
 
 ## Config
