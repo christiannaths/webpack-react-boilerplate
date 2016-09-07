@@ -19,6 +19,7 @@ source: https://github.com/christiannaths/webpack-react-boilerplate/blob/master/
 
 source: https://github.com/christiannaths/webpack-react-boilerplate/blob/master/config/webpack.common.js
 
+  - JS: using `babel-loader` with the `es2015` and `react` presets
   - [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin) - Generates index.html file with bundles automatically injected
   - sets up `entry` and `output` options
 
@@ -27,7 +28,6 @@ source: https://github.com/christiannaths/webpack-react-boilerplate/blob/master/
 
 source: https://github.com/christiannaths/webpack-react-boilerplate/blob/master/config/webpack.development.js
 
-  - JS: using `babel-loader` with the `es2015` and `react` presets
   - Styles: using `sass-loader`, `css-loader`, and injecting styles directly into index.html via `style-loader`
   - [browser-sync-webpack-plugin](https://github.com/Va1/browser-sync-webpack-plugin) for using BrowserSync alongside Webpack
   - BrowserSync runs on port `3000`, which is proxying [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) on port `3100`
